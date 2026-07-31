@@ -1,35 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta property="og:title" content="Macadam Agroadvisory">
-    <meta property="og:description" content="Professional Agricultural Consulting Services">
-    <meta property="og:image" content="../images/hero.jpg">
-    <meta property="og:type" content="website">
-
-    <title>Training | Macadam Agroadvisory</title>
-
-    <meta name="keywords" content="Agriculture, Agricultural Consultant, Soil Science, Plantation, Sustainable Farming, Agricultural Training">
-
+    <title>Training & Education | Macadam Agroadvisory</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="../images/favicon.png">
 </head>
-
 <body>
 
+    <!-- Header & Navigation -->
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="../index.html">
-                    <img src="../images/logo.png" alt="Macadam Agroadvisory">
-                </a>
-            </div>
+        <div class="navbar">
+            <a href="../index.html" class="logo">
+                <img src="../images/logo.png" alt="Macadam Agroadvisory Logo">
+            </a>
 
-            <button class="menu-btn" aria-label="Toggle Menu">
+            <button class="menu-btn" aria-label="Toggle navigation">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -45,38 +31,130 @@
                 <li><a href="resources.html">Resources</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
-    <!-- Add Page Banner Here -->
-    <section class="page-banner">
-        <h1>Training & Education</h1>
-        <p>Tailored scientific solutions, soil health optimization, and complete farm management.</p>
-    </section>
-    <section class="section">
 
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <h1>Agricultural Training & Education</h1>
+        <p>Mentoring university students, guiding agricultural institutions, and conducting practical farmer workshops.</p>
+    </section>
+
+    <!-- Core Training Pillars (Detailed Grid) -->
+    <section class="section">
+        <h2>Our Training Programs</h2>
         <p class="section-subtitle">
-            Macadam Agroadvisory provides comprehensive agricultural education and knowledge sharing programs for institutions and farmers.
+            Bridging academic agricultural science with practical, real-world field expertise.
         </p>
 
-        <ul class="simple-list">
-            <li>✔ University Students Mentoring</li>
-            <li>✔ Agricultural College Programs</li>
-            <li>✔ Hands-on Farmers Training</li>
-            <li>✔ Technical Workshops</li>
-            <li>✔ Practical Field Demonstrations</li>
-        </ul>
+        <div class="cards" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+            
+            <!-- Pillar 1 -->
+            <div class="card">
+                <h3>🎓 University Student Mentoring & Academic Workshops</h3>
+                <p>Designed for undergraduate and postgraduate students in agronomy, soil science, and agricultural engineering.</p>
+                <ul class="simple-list" style="margin-top: 1rem; text-align: left;">
+                    <li>✔ One-on-one thesis guidance & research review</li>
+                    <li>✔ Real-world case study analysis (Soil & Water)</li>
+                    <li>✔ Career pathway guidance in advisory & agtech</li>
+                </ul>
+            </div>
+
+            <!-- Pillar 2 -->
+            <div class="card">
+                <h3>📚 Agricultural College Curriculum Support</h3>
+                <p>Collaborating with academic faculties to design, update, and enhance modern agricultural course modules.</p>
+                <ul class="simple-list" style="margin-top: 1rem; text-align: left;">
+                    <li>✔ Practical lab and field-session integration</li>
+                    <li>✔ Modern 4R nutrient stewardship syllabus design</li>
+                    <li>✔ Guest lectures & interactive faculty seminars</li>
+                </ul>
+            </div>
+
+            <!-- Pillar 3 -->
+            <div class="card">
+                <h3>🚜 Practical Hands-On Farmer Field Workshops</h3>
+                <p>Actionable, on-farm training sessions focused on immediate, practical improvements for growers and farm crews.</p>
+                <ul class="simple-list" style="margin-top: 1rem; text-align: left;">
+                    <li>✔ On-field soil testing & compaction diagnostics</li>
+                    <li>✔ Calibration of fertilizer & irrigation equipment</li>
+                    <li>✔ In-season crop deficiency scouting methods</li>
+                </ul>
+            </div>
+
+            <!-- Pillar 4 -->
+            <div class="card">
+                <h3>🌴 Specialized Plantation Management Training</h3>
+                <p>Tailored long-term advisory programs for estate managers, plantation supervisors, and commercial operations.</p>
+                <ul class="simple-list" style="margin-top: 1rem; text-align: left;">
+                    <li>✔ Multi-year soil health & organic matter strategy</li>
+                    <li>✔ Sustainable water & drip irrigation efficiency</li>
+                    <li>✔ Yield optimization & disease mitigation protocols</li>
+                </ul>
+            </div>
+
+        </div>
     </section>
 
+    <!-- Course Materials & Downloadable PDFs -->
+    <section class="section" style="padding-top: 0;">
+        <h2>Technical Guides & Field Notes</h2>
+        <p class="section-subtitle">
+            Access comprehensive training manuals and practical field guides authored by David MacAdam.
+        </p>
+
+        <div class="cards">
+            <!-- Soil Guide -->
+            <div class="card">
+                <h3>🌱 Soil Fertility & Health Guide</h3>
+                <p>Comprehensive manual on soil diagnostics, Cation Exchange Capacity (CEC), pH management, and biological health protocols.</p>
+                <br>
+                <a href="../resources/Soil_Fertility_Guide_MacAdam.pdf" class="btn" download style="font-size:0.85rem; padding: 0.5rem 1rem;">
+                    📥 Download Field Guide (PDF)
+                </a>
+            </div>
+
+            <!-- Crop Nutrition Notes -->
+            <div class="card">
+                <h3>🌾 Crop Nutrition & Fertilizer Notes</h3>
+                <p>Advanced stewardship guidelines using the 4R framework, primary/secondary nutrient diagnostics, and foliar strategies.</p>
+                <br>
+                <a href="../resources/Crop_Nutrition_Notes_MacAdam.pdf" class="btn" download style="font-size:0.85rem; padding: 0.5rem 1rem;">
+                    📥 Download Technical Notes (PDF)
+                </a>
+            </div>
+
+            <!-- Irrigation Notes -->
+            <div class="card">
+                <h3>💧 Sustainable Irrigation Field Notes</h3>
+                <p>Field notes detailing soil-plant-water relationships, sensor monitoring, distribution uniformity, and salinity management.</p>
+                <br>
+                <a href="../resources/Irrigation_Field_Notes_MacAdam.pdf" class="btn" download style="font-size:0.85rem; padding: 0.5rem 1rem;">
+                    📥 Download Field Notes (PDF)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="section" style="background-color: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; text-align: center;">
+        <h2>Schedule a Custom Training Workshop</h2>
+        <p style="color: #64748b; max-width: 600px; margin: 0.5rem auto 1.5rem auto;">
+            Need a custom field demonstration for your farm team or a tailored guest lecture for your academic institution?
+        </p>
+        <a href="contact.html" class="btn">Get in Touch with David</a>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <div class="footer-content">
             <h3>Macadam Agroadvisory</h3>
             <p>Professional Agricultural Consulting • Soil Science • Plantation Advisory • Training</p>
-            <p>📧 info@macadamagroadvisory.com</p>
-            <p>© 2026 Macadam Agroadvisory. All Rights Reserved.</p>
+            <p>✉ info@macadamagroadvisory.com</p>
+            <p>&copy; 2026 Macadam Agroadvisory. All Rights Reserved.</p>
         </div>
     </footer>
 
     <script src="../js/script.js"></script>
 </body>
-
 </html>
